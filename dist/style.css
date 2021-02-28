@@ -1,0 +1,188 @@
+@font-face {
+  font-family: "dunkin";
+  src: url(/assets/fonts/Dunkin.otf);
+}
+
+@font-face {
+  font-family: "dunkin-bold";
+  src: url(/assets/fonts/Dunkin-Bold.otf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "dunkin", sans-serif;
+}
+
+#navBar {
+  left: 0;
+  top: 0;
+  position: absolute;
+  height: 8vh;
+  width: 100%;
+}
+
+#navBar > .topBar {
+  background-color: #c91f7e;
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topBar > .logo {
+  float: left;
+  position: relative;
+}
+
+.logoIMG {
+  position: relative;
+  width: 140px;
+  top: 10px;
+  left: 20px;
+  height: auto;
+}
+
+.nav {
+  position: relative;
+  float: right;
+  display: flex;
+  right: 20px;
+}
+
+.nav > .navBtn {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+  font-weight: 400;
+  background: #c91f7e;
+  outline: none;
+  border: none;
+  padding: 10px;
+}
+
+.nav > .navBtn:hover {
+  cursor: pointer;
+}
+
+#content {
+  display: block;
+  position: relative;
+  top: 8vh;
+  height: 100%;
+  width: 100%;
+}
+
+#content > .header > .headerText {
+  position: relative;
+  top: 1vh;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #c91f7e;
+}
+
+#content > .header > .headerImg {
+  position: relative;
+  background-image: url("https://www.wallpapertip.com/wmimgs/74-745259_dunkin-donuts.jpg");
+  background-repeat: no-repeat;
+  top: 2vh;
+  height: 600px;
+  width: auto;
+}
+
+#content > .contentBlock {
+  display: grid;
+  padding: 0;
+  margin: 0;
+  grid-template-columns: repeat(2, 2fr);
+}
+
+#content > .contactBlock {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+#content > .menuBlock {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+#content > .menuBlock > .items {
+  background: #c91f7e;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#content > .contactBlock > .contact-map {
+  background: #c91f7e;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#content > .contactBlock > .contact-contact {
+  background: #c91f7e;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.contentBlock > .contentImg {
+  position: relative;
+  left: 20px;
+}
+
+.contentBlock > .contentText {
+  font-size: 60px;
+  color: #c91f7e;
+  position: relative;
+  margin: 120px;
+}
+
+.footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 5vh;
+  background: #c91f7e;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+}
