@@ -16,7 +16,7 @@ function loadHome() {
 
   // header image
   const headerImg = document.createElement("img");
-  headerImg.src = "./images/header.png";
+  headerImg.src = "images/header.png";
   headerImg.style.position = "relative";
   headerImg.style.top = "2vh";
   headerImg.style.height = "auto";
@@ -32,7 +32,7 @@ function loadHome() {
   // content image
   const contentImg = document.createElement("img");
   contentImg.classList.add("contentImg");
-  contentImg.src = "./images/donut.png";
+  contentImg.src = "images/donut.png";
   contentBlock.appendChild(contentImg);
 
   // content text
