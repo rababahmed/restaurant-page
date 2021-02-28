@@ -29,7 +29,7 @@ function siteController() {
     loadContact();
   });
 
-  loadContact();
+  loadHome();
 }
 
 export default siteController;
